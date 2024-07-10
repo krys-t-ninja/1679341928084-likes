@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LIKES</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>Network</h1>
+        </div>
+        
+            <h1 class="center">YOUR FEED</h1>
+        
+        <div class="row">
+            <div class="left">
+                <div class="user">
+                    <img src="/home/loveyogawithkrystal/Dojo_Assignments/Web_Fundamentals/CSS/ProfilePage/1614282895__icons.zip_unzipped/1614282895__icons.zip_unzipped/icons/user-circle.png" alt="user-circle" class="avatar">
+                    <p><a href="#"> ADD AN AVATAR </a></p>
+                    <h2>John Doe</h2>
+                </div>
+            </div>
+            <div class="right">
+                <div class="post">
+                    <div class="top-line">
+                        <h1>Some User</h1>
+                        <div class="likes">
+                        <span id="post-1" class="addLike"> 3 likes </span>
+                        <button class="btn" onclick="like(0)">LIKE</button>
+                        </div>
+                    </div>
+                    <p>This is some filter text</p>
+                </div>
+                <div class="post">
+                    <div class="top-line">
+                        <h1>Nickole K</h1>
+                        <div class="likes">
+                            <span id="post-2"> 12 likes </span>
+                            <button class="btn" onclick="like(1)">LIKE</button>
+                        </div>
+                    </div>
+                    <p>Just finished my <a href="#">next comic</a>, check it out</p>
+                </div>
+                <div class="post">
+                    <div class="top-line">
+                    <h1>Jim R</h1>
+                    <div class="likes">
+                        <span id="post-3"> 9 likes </span>
+                        <button class="btn" onclick="like(2)">LIKE</button>
+                    </div>
+                    </div>
+                    <p>I cant stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>    
+    </div>
+</body>
+</html>
